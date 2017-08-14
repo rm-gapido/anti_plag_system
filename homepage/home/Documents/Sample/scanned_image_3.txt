@@ -1,0 +1,3 @@
+This is from the third image scanned by OCR.
+The second line goes here
+while the third line is here. The first line of fourth file should print below me!

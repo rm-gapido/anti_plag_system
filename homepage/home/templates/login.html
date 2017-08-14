@@ -1,0 +1,36 @@
+{% extends 'borders.html' %}
+{% block title %}Login{% endblock %}
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="login">
+                <center>
+                    <div class="card card-outline-primary">
+                        <!-- <img class="plagscan-logo" src="/static/images/plagscan-logo.png"> -->
+                        <form action="#">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="username">Username:</label>
+                                    <input type="text" class="form-control" id="username" required>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="pwd">Password:</label>
+                                    <input type="password" class="form-control" id="pwd" required>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <label for="domain">Enter Domain Name:</label>
+                                    <input type="text" value="" class="form-control" id="domain" required>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-outline-primary">Submit</button>
+                        </form>
+                    </div>
+                </center>
+            </div>
+        </div>
+    </div>
+{% endblock %}
